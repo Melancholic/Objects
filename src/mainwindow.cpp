@@ -96,9 +96,9 @@ void MainWindow::next_step(){
             std::cerr<<"YYY";
             entity *ce = dynamic_cast<entity*>(citm);
             if(ce&&e){
-            ce->setSpeed(e->getSpeed()/abs(e->getSpeed())*ce->getSpeed());
+            ce->setSpeed(-1*ce->getSpeed());
             ce->next();
-           e->setSpeed(ce->getSpeed()/abs(ce->getSpeed())*e->getSpeed());
+           e->setSpeed(-1*e->getSpeed());
             e->next();
             }
         }
@@ -128,4 +128,9 @@ void MainWindow::next_step(){
             (*i)->next();
     }*/
     ui->area->viewport()->update();
+}
+
+void MainWindow::on_speed_slider_rangeChanged(int min, int max)
+{
+
 }

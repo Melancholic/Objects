@@ -164,12 +164,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>560</x>
-     <y>315</y>
+     <x>370</x>
+     <y>292</y>
     </hint>
     <hint type="destinationlabel">
-     <x>594</x>
-     <y>291</y>
+     <x>509</x>
+     <y>268</y>
     </hint>
    </hints>
   </connection>
@@ -180,12 +180,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>610</x>
-     <y>281</y>
+     <x>525</x>
+     <y>258</y>
     </hint>
     <hint type="destinationlabel">
-     <x>610</x>
-     <y>316</y>
+     <x>420</x>
+     <y>293</y>
     </hint>
    </hints>
   </connection>

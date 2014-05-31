@@ -2,18 +2,23 @@
 #include "entity.h"
 #include<QPainter>
 #include<iostream>
+#include<QDebug>
 
 
 circle::circle():entity(){
     setFlag(ItemIsMovable,true);
+    setX(entity::x);
+    setY(entity::x);
 }
 
 circle::circle(int X, int Y):entity(X,Y){
+    setX(X);
+    setY(Y);
 
 }
 circle::circle(entity& arg){
-     entity::x= arg.getX();
-     entity::y=arg.getY();
+     setX(arg.getX());
+     setY(arg.getY());
      entity::size=arg.getSize();
      entity::color=arg.getColor();
      setFlag(ItemIsMovable,true);
@@ -55,18 +60,20 @@ int circle::getSpeed(){
 
 void circle::setX(int a){
      entity::x=a;
+     this->setPos(a,entity::y);
 }
 
 void circle::setY(int a){
      entity::y=a;
+     this->setPos(entity::x,a);
 }
 void circle::setSize(int a){
      entity::size=a;
 }
 
 void circle::setColor(QColor a){
-
      entity::color=a;
+
 }
 
 void circle::setFunction(fun_t f){
@@ -76,26 +83,23 @@ void circle::setSpeed(int a){
     entity::speed=a;
 }
 
-QPainterPath  circle::draw(){
-    QPainterPath painter;
-    painter.addEllipse(entity::x+entity::size/2,entity::y+entity::size/2,entity::size,entity::size);
-    return painter;
-}
 QRectF circle::boundingRect() const{
-    return QRectF(entity::x+entity::size/2,entity::y+entity::size/2,entity::size,entity::size);
+    return QRect(pos().x()-entity::size/2,pos().y()-entity::size/2,entity::size,entity::size);
 }
 
 void circle::paint(QPainter *painter, const QStyleOptionGraphicsItem *,
                 QWidget *){
      painter->save();
      painter->setBrush(QBrush(entity::color));
-    painter->drawEllipse(entity::x+entity::size/2,entity::y+entity::size/2,entity::size,entity::size);
+     painter->drawEllipse(pos().x()-entity::size/2,pos().y()-entity::size/2,entity::size,entity::size);
      painter->restore();
+     qDebug()<<"\nROOT POS X "<<pos().x()<<" ROOT POS Y "<<pos().y();
 }
 
 void circle::next(){
     entity::x+=entity::speed;
     entity::y=entity::function(entity::x);
+    this->setPos(entity::x,entity::y);
 }
 
  QPainterPath  circle::shape() const{

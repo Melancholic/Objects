@@ -26,7 +26,7 @@ public:
     virtual void setColor(QColor)=0;
     virtual void setFunction(fun_t)=0;
     virtual void setSpeed(int)=0;
-    virtual QPainterPath draw()=0;
+
     virtual void next()=0;
     virtual ~entity();
 

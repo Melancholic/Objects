@@ -23,11 +23,11 @@ public:
     void setY(int a);
     void setSize(int);
     void setColor(QColor);
-    QPainterPath draw();
-    QRectF boundingRect() const;//Жадный прямоугольник фигуры
-    void paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*);//отрисовка
+    //QPainterPath draw();
+   virtual QRectF boundingRect() const;//Жадный прямоугольник фигуры
+   virtual void paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*);//отрисовка
     void next();
-    QPainterPath shape() const;//Точное очертание фигуры для коллизий
+   virtual QPainterPath shape() const;//Точное очертание фигуры для коллизий
 };
 
 #endif // CIRCLE_H

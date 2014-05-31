@@ -7,23 +7,11 @@
 #include<QGraphicsView>
 class DrawArea :  public QGraphicsView{
     Q_OBJECT
-private:
-       int  width, height;
-       QColor bgColor;
-       bool fullMode;
-       std::vector<entity*> objcts;
-       QGraphicsScene *scene;
+    static QColor BgColor;
 public:
-    DrawArea (QWidget *parent);
-    DrawArea (QGraphicsScene*);
-    ~DrawArea();
-    void paintEvent(QPaintEvent *event);
-    void setBgColor(QColor color);
-    QColor getBgColor();
-    void drawBackground ( QPainter * painter, const QRectF & rect );
-public slots:
-   void next_step();
-
-
+    void resizeEvent( QResizeEvent*);
+    DrawArea(QWidget* par);
+    static void setBgColor(QColor);
+    static QColor getBgColor();
 };
 #endif // DRAWAREA_H

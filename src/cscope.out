@@ -1,0 +1,4499 @@
+cscope 15 $HOME/works/Objcts/src               0000022348
+	@arc.cpp
+
+1 
+	~"¬c.h
+"
+
+2 
+	~"d¿w¬—.h
+"
+
+3 
+	~<io¡»am
+>
+
+4 
+	g¬c
+::
+	$¬c
+():
+	$cœşe
+(){
+
+5 
+	`£tCŞÜIÂ”
+(
+D¿wA»a
+::
+	`g‘BgCŞÜ
+());
+
+6 
+	`£tSizeIÂ”
+(20);
+
+7 
+	}
+}
+
+8 
+	g¬c
+::
+	$¬c
+(
+X
+, 
+Y
+, 
+Size
+, 
+QCŞÜ
+ 
+CŞÜ1
+, QCŞÜ 
+CŞÜ2
+):
+	$cœşe
+(
+X
+,
+Y
+,
+Size
+,
+CŞÜ1
+){
+
+9 
+	`£tCŞÜIÂ”
+(
+CŞÜ2
+);
+
+11 
+	}
+}
+
+13 
+QCŞÜ
+ 
+	g¬c
+::
+	$g‘CŞÜIÂ”
+(){
+
+14  
+CŞÜIÂ”
+;
+
+15 
+	}
+}
+
+17 
+	g¬c
+::
+	$£tCŞÜIÂ”
+(
+QCŞÜ
+ 
+c
+){
+
+18 
+CŞÜIÂ”
+=
+c
+;
+
+19 
+	}
+}
+
+21 
+	g¬c
+::
+	$£tSizeIÂ”
+(
+r
+){
+
+22 
+SizeIÂ”
+=
+r
+;
+
+23 
+	}
+}
+
+25 
+	g¬c
+::
+	$g‘SizeIÂ”
+(){
+
+26  
+SizeIÂ”
+;
+
+27 
+	}
+}
+
+28 
+	g¬c
+::
+	$·št
+(
+QPaš‹r
+*
+·š‹r
+, cÚ¡ 
+QStyËO±iÚG¿phicsI‹m
+* 
+o
+, 
+QWidg‘
+* 
+w
+){
+
+30 
+·š‹r
+->
+	`§ve
+();
+
+31 
+cœşe
+::
+	`·št
+(
+·š‹r
+,
+o
+,
+w
+);
+
+32 
+·š‹r
+->
+	`£tBrush
+(
+	`QBrush
+(
+CŞÜIÂ”
+));
+
+33 
+·š‹r
+->
+	`d¿wEÎ£
+(
+	`pos
+().
+	`x
+()-
+SizeIÂ”
+/2,pos().
+	`y
+()-SizeInner/2,SizeInner,SizeInner);
+
+34 
+·š‹r
+->
+	`»¡Üe
+();
+
+35 
+¡d
+::
+û¼
+<<"\nCHILD POS X "<<
+	`pos
+().
+	`x
+()<<" ROOT POS Y "<<pos().
+	`y
+();
+
+36 
+	}
+}
+
+37 
+	g¬c
+::
+	$Ãxt
+(){
+
+38 
+cœşe
+::
+	`Ãxt
+();
+
+39 
+	}
+}
+
+	@arc.h
+
+1 #iâdeà
+ARC_H
+
+
+2 
+	#ARC_H
+
+
+	)
+
+3 
+	~"cœşe.h
+"
+
+4 
+	~<QG¿phicsI‹m
+>
+
+5 şas 
+	c¬c
+: 
+public
+ 
+cœşe
+{
+
+6 
+QCŞÜ
+ 
+CŞÜIÂ”
+;
+
+7 
+	mSizeIÂ”
+;
+
+8 
+	mpublic
+:
+
+9 
+¬c
+();
+
+10 
+¬c
+(
+X
+, 
+Y
+, 
+Size
+, 
+QCŞÜ
+ 
+CŞÜ1
+, QCŞÜ 
+CŞÜ2
+);
+
+11 
+QCŞÜ
+ 
+g‘CŞÜIÂ”
+();
+
+12 
+£tCŞÜIÂ”
+(
+QCŞÜ
+);
+
+13 
+·št
+(
+QPaš‹r
+*, cÚ¡ 
+QStyËO±iÚG¿phicsI‹m
+*, 
+QWidg‘
+*);
+
+14 
+Ãxt
+();
+
+15 
+£tSizeIÂ”
+();
+
+16 
+g‘SizeIÂ”
+();
+
+	@circle.cpp
+
+1 
+	~"cœşe.h
+"
+
+2 
+	~"’t™y.h
+"
+
+3 
+	~<QPaš‹r
+>
+
+4 
+	~<io¡»am
+>
+
+7 
+	gcœşe
+::
+	$cœşe
+():
+	$’t™y
+(){
+
+8 
+	`£tFÏg
+(
+I‹mIsMovabË
+,
+Œue
+);
+
+9 
+	`£tX
+(
+’t™y
+::
+x
+);
+
+10 
+	`£tY
+(
+’t™y
+::
+x
+);
+
+11 
+	}
+}
+
+13 
+	gcœşe
+::
+	$cœşe
+(
+X
+, 
+Y
+):
+	$’t™y
+(
+X
+,
+Y
+){
+
+14 
+	`£tX
+(
+X
+);
+
+15 
+	`£tY
+(
+Y
+);
+
+17 
+	}
+}
+
+18 
+	gcœşe
+::
+	$cœşe
+(
+’t™y
+& 
+¬g
+){
+
+19 
+	`£tX
+(
+¬g
+.
+	`g‘X
+());
+
+20 
+	`£tY
+(
+¬g
+.
+	`g‘Y
+());
+
+21 
+’t™y
+::
+size
+=
+¬g
+.
+	`g‘Size
+();
+
+22 
+’t™y
+::
+cŞÜ
+=
+¬g
+.
+	`g‘CŞÜ
+();
+
+23 
+	`£tFÏg
+(
+I‹mIsMovabË
+,
+Œue
+);
+
+24 
+	}
+}
+
+26 
+	gcœşe
+::
+	$cœşe
+(
+X
+, 
+Y
+, 
+Size
+):
+	$’t™y
+(
+X
+,
+Y
+,
+Size
+){
+
+27 
+	`£tFÏg
+(
+I‹mIsMovabË
+,
+Œue
+);
+
+28 
+	}
+}
+
+29 
+	gcœşe
+::
+	$cœşe
+(
+X
+, 
+Y
+, 
+Size
+, 
+QCŞÜ
+ 
+CŞÜ
+):
+	$’t™y
+(
+X
+,
+Y
+,
+Size
+,
+CŞÜ
+){
+
+30 
+	`£tFÏg
+(
+I‹mIsMovabË
+,
+Œue
+);
+
+31 
+	}
+}
+
+33 
+	gcœşe
+::~
+	$cœşe
+(){
+
+34 
+	}
+}
+
+35 
+cœşe
+::
+	$g‘X
+(){
+
+36  
+’t™y
+::
+x
+;
+
+37 
+	}
+}
+
+38 
+	gcœşe
+::
+	$g‘Y
+(){
+
+39  
+’t™y
+::
+y
+;
+
+40 
+	}
+}
+
+42 
+	gcœşe
+::
+	$g‘Size
+(){
+
+43  
+’t™y
+::
+size
+;
+
+44 
+	}
+}
+
+46 
+QCŞÜ
+ 
+	gcœşe
+::
+	$g‘CŞÜ
+(){
+
+48  
+’t™y
+::
+cŞÜ
+;
+
+49 
+	}
+}
+
+51 
+fun_t
+ 
+	gcœşe
+::
+	$g‘FunùiÚ
+(){
+
+52  
+’t™y
+::
+funùiÚ
+;
+
+53 
+	}
+}
+
+55 
+	gcœşe
+::
+	$g‘S³ed
+(){
+
+56  
+’t™y
+::
+¥“d
+;
+
+57 
+	}
+}
+
+60 
+	gcœşe
+::
+	$£tX
+(
+a
+){
+
+61 
+’t™y
+::
+x
+=
+a
+;
+
+62 
+this
+->
+	`£tPos
+(
+a
+,
+’t™y
+::
+y
+);
+
+63 
+	}
+}
+
+65 
+	gcœşe
+::
+	$£tY
+(
+a
+){
+
+66 
+’t™y
+::
+y
+=
+a
+;
+
+67 
+this
+->
+	`£tPos
+(
+’t™y
+::
+x
+,
+a
+);
+
+68 
+	}
+}
+
+69 
+	gcœşe
+::
+	$£tSize
+(
+a
+){
+
+70 
+’t™y
+::
+size
+=
+a
+;
+
+71 
+	}
+}
+
+73 
+	gcœşe
+::
+	$£tCŞÜ
+(
+QCŞÜ
+ 
+a
+){
+
+74 
+’t™y
+::
+cŞÜ
+=
+a
+;
+
+76 
+	}
+}
+
+78 
+	gcœşe
+::
+	$£tFunùiÚ
+(
+fun_t
+ 
+f
+){
+
+79 
+’t™y
+::
+funùiÚ
+=
+f
+;
+
+80 
+	}
+}
+
+81 
+	gcœşe
+::
+	$£tS³ed
+(
+a
+){
+
+82 
+’t™y
+::
+¥“d
+=
+a
+;
+
+83 
+	}
+}
+
+85 
+QReùF
+ 
+	gcœşe
+::
+	$boundšgReù
+() const{
+
+86  
+	`QReù
+(
+	`pos
+().
+	`x
+()-
+’t™y
+::
+size
+/2,pos().
+	`y
+()-entity::size/2,entity::size,entity::size);
+
+87 
+	}
+}
+
+89 
+	gcœşe
+::
+	$·št
+(
+QPaš‹r
+ *
+·š‹r
+, cÚ¡ 
+QStyËO±iÚG¿phicsI‹m
+ *,
+
+90 
+QWidg‘
+ *){
+
+91 
+·š‹r
+->
+	`§ve
+();
+
+92 
+·š‹r
+->
+	`£tBrush
+(
+	`QBrush
+(
+’t™y
+::
+cŞÜ
+));
+
+93 
+·š‹r
+->
+	`d¿wEÎ£
+(
+	`pos
+().
+	`x
+()-
+’t™y
+::
+size
+/2,pos().
+	`y
+()-entity::size/2,entity::size,entity::size);
+
+94 
+·š‹r
+->
+	`»¡Üe
+();
+
+95 
+¡d
+::
+û¼
+<<"\nROOT POS X "<<
+	`pos
+().
+	`x
+()<<" ROOT POS Y "<<pos().
+	`y
+();
+
+96 
+	}
+}
+
+98 
+	gcœşe
+::
+	$Ãxt
+(){
+
+99 
+’t™y
+::
+x
++óÁ™y::
+¥“d
+;
+
+100 
+’t™y
+::
+y
+óÁ™y::
+	`funùiÚ
+ÓÁ™y::
+x
+);
+
+101 
+this
+->
+	`£tPos
+(
+’t™y
+::
+x
+,’t™y::
+y
+);
+
+102 
+	}
+}
+
+104 
+QPaš‹rP©h
+ 
+	gcœşe
+::
+	$sh­e
+() const{
+
+105 
+QPaš‹rP©h
+ 
+·th
+;
+
+106 
+·th
+.
+	`addEÎ£
+(
+	`boundšgReù
+());
+
+107  
+·th
+;
+
+108 
+	}
+}
+
+	@circle.h
+
+1 #iâdeà
+CIRCLE_H
+
+
+2 
+	#CIRCLE_H
+
+
+	)
+
+3 
+	~"’t™y.h
+"
+
+4 
+	~<QG¿phicsI‹m
+>
+
+5 (*
+	tfun_t
+)();
+
+6 
+şass
+ 
+cœşe
+ : 
+public
+ 
+’t™y
+,publiø
+QG¿phicsI‹m
+{
+
+7 
+public
+:
+
+8 
+	`cœşe
+();
+
+9 
+	`cœşe
+(
+’t™y
+&);
+
+10 
+	`cœşe
+(
+X
+, 
+Y
+);
+
+11 
+	`cœşe
+(
+X
+, 
+Y
+, 
+Size
+);
+
+12 
+	`cœşe
+(
+X
+, 
+Y
+, 
+Size
+, 
+QCŞÜ
+ 
+CŞÜ
+);
+
+13 ~
+	`cœşe
+();
+
+14 
+	`g‘X
+();
+
+15 
+	`g‘Y
+();
+
+16 
+	`g‘Size
+();
+
+17 
+QCŞÜ
+ 
+	`g‘CŞÜ
+();
+
+18 
+fun_t
+ 
+	`g‘FunùiÚ
+();
+
+19 
+	`g‘S³ed
+();
+
+20 
+	`£tFunùiÚ
+(
+fun_t
+);
+
+21 
+	`£tS³ed
+();
+
+22 
+	`£tX
+(
+a
+);
+
+23 
+	`£tY
+(
+a
+);
+
+24 
+	`£tSize
+();
+
+25 
+	`£tCŞÜ
+(
+QCŞÜ
+);
+
+27 
+vœtu®
+ 
+QReùF
+ 
+	`boundšgReù
+() const;
+
+28 
+vœtu®
+ 
+	`·št
+(
+QPaš‹r
+*, cÚ¡ 
+QStyËO±iÚG¿phicsI‹m
+*, 
+QWidg‘
+*);
+
+29 
+	`Ãxt
+();
+
+30 
+vœtu®
+ 
+QPaš‹rP©h
+ 
+	`sh­e
+() const;
+
+31 
+	}
+};
+
+	@drawarea.cpp
+
+1 
+	~"d¿w¬—.h
+"
+
+2 
+	~<c¡dlib
+>
+
+3 
+	~<QPaš‹r
+>
+
+4 
+	~<io¡»am
+>
+
+5 
+	~<cœşe.h
+>
+
+6 
+	~<QPaštEv’t
+>
+
+7 
+	~<cm©h
+>
+
+8 
+QCŞÜ
+ 
+	gD¿wA»a
+::
+BgCŞÜ
+;
+
+9 
+	gD¿wA»a
+::
+	$»sizeEv’t
+(
+QResizeEv’t
+ *
+evÁ
+){
+
+10 
+¡d
+::
+û¼
+<<"resize";
+
+11 if(
+	`sûÃ
+()){
+
+12 
+	`sûÃ
+()->
+	`£tSûÃReù
+(
+	`QReù
+(
+	`QPošt
+(0,0),
+evÁ
+->
+	`size
+()));
+
+14 
+	`f™InV›w
+(0,0,
+this
+->
+	`width
+(),this->
+	`height
+(),
+Qt
+::
+K“pA¥eùR©io
+);
+
+15 
+QG¿phicsV›w
+::
+	`»sizeEv’t
+(
+evÁ
+);
+
+16 
+	}
+}
+
+18 
+	gD¿wA»a
+::
+	$D¿wA»a
+(
+QWidg‘
+* 
+·r
+):
+	$QG¿phicsV›w
+(
+·r
+){
+
+19 
+	}
+}
+
+20 
+D¿wA»a
+::
+	$£tBgCŞÜ
+(
+QCŞÜ
+ 
+CŞÜ
+){
+
+21 
+D¿wA»a
+::
+BgCŞÜ
+=
+CŞÜ
+;
+
+22 
+	}
+}
+
+24 
+QCŞÜ
+ 
+	gD¿wA»a
+::
+	$g‘BgCŞÜ
+(){
+
+25  
+D¿wA»a
+::
+BgCŞÜ
+;
+
+26 
+	}
+}
+
+	@drawarea.h
+
+1 #iâdeà
+DRAWAREA_H
+
+
+2 
+	#DRAWAREA_H
+
+
+	)
+
+3 
+	~<QWidg‘
+>
+
+4 
+	~<veùÜ
+>
+
+5 
+	~<’t™y.h
+>
+
+6 
+	~<QG¿phicsSûÃ
+>
+
+7 
+	~<QG¿phicsV›w
+>
+
+8 şas 
+	cD¿wA»a
+ : 
+public
+ 
+QG¿phicsV›w
+{
+
+9 
+Q_OBJECT
+
+
+10 
+QCŞÜ
+ 
+BgCŞÜ
+;
+
+11 
+	mpublic
+:
+
+12 
+»sizeEv’t
+Ğ
+QResizeEv’t
+*);
+
+13 
+D¿wA»a
+(
+QWidg‘
+* 
+·r
+);
+
+14 
+£tBgCŞÜ
+(
+QCŞÜ
+);
+
+15 
+QCŞÜ
+ 
+g‘BgCŞÜ
+();
+
+	@entity.cpp
+
+1 
+	~"’t™y.h
+"
+
+3 
+	g’t™y
+::
+	$’t™y
+(){
+
+4 
+x
+=0;
+
+5 
+y
+=0;
+
+6 
+size
+=10;
+
+7 
+cŞÜ
+=
+Qt
+::
+wh™e
+;
+
+8 
+	}
+}
+
+10 
+	g’t™y
+::~
+	$’t™y
+(){
+
+12 
+	}
+}
+
+14 
+’t™y
+::
+	$’t™y
+(
+X
+, 
+Y
+){
+
+15 
+x
+=
+X
+;
+
+16 
+y
+=
+Y
+;
+
+17 
+size
+=10;
+
+18 
+cŞÜ
+=
+Qt
+::
+wh™e
+;
+
+19 
+	}
+}
+
+20 
+	g’t™y
+::
+	$’t™y
+(
+X
+, 
+Y
+, 
+Size
+){
+
+21 
+x
+=
+X
+;
+
+22 
+y
+=
+Y
+;
+
+23 
+size
+=
+Size
+;
+
+24 
+cŞÜ
+=
+Qt
+::
+wh™e
+;
+
+25 
+	}
+}
+
+27 
+	g’t™y
+::
+	$’t™y
+(
+X
+, 
+Y
+, 
+Size
+, 
+QCŞÜ
+ 
+CŞÜ
+){
+
+28 
+x
+=
+X
+;
+
+29 
+y
+=
+Y
+;
+
+30 
+size
+=
+Size
+;
+
+31 
+cŞÜ
+=
+CŞÜ
+;
+
+32 
+	}
+}
+
+	@entity.h
+
+1 #iâdeà
+ENTITY_H
+
+
+2 
+	#ENTITY_H
+
+
+	)
+
+3 
+	~<QWidg‘
+>
+
+4 (*
+	tfun_t
+)();
+
+6 şas 
+	c’t™y
+{
+
+8 
+´Ùeùed
+:
+
+9 
+x
+,
+y
+,
+size
+,
+¥“d
+;
+
+10 
+QCŞÜ
+ 
+cŞÜ
+;
+
+11 
+fun_t
+ 
+funùiÚ
+;
+
+12 
+	`’t™y
+();
+
+13 
+	`’t™y
+(
+X
+, 
+Y
+);
+
+14 
+	`’t™y
+(
+X
+, 
+Y
+, 
+Size
+);
+
+15 
+	`’t™y
+(
+X
+, 
+Y
+, 
+Size
+, 
+QCŞÜ
+ 
+CŞÜ
+);
+
+16 
+public
+:
+
+17 
+vœtu®
+ 
+	`g‘X
+()=0;
+
+18 
+vœtu®
+ 
+	`g‘Y
+()=0;
+
+19 
+vœtu®
+ 
+	`g‘Size
+()=0;
+
+20 
+vœtu®
+ 
+fun_t
+ 
+	`g‘FunùiÚ
+()=0;
+
+21 
+vœtu®
+ 
+QCŞÜ
+ 
+	`g‘CŞÜ
+()=0;
+
+22 
+vœtu®
+ 
+	`g‘S³ed
+()=0;
+
+23 
+vœtu®
+ 
+	`£tX
+()=0;
+
+24 
+vœtu®
+ 
+	`£tY
+()=0;
+
+25 
+vœtu®
+ 
+	`£tSize
+()=0;
+
+26 
+vœtu®
+ 
+	`£tCŞÜ
+(
+QCŞÜ
+)=0;
+
+27 
+vœtu®
+ 
+	`£tFunùiÚ
+(
+fun_t
+)=0;
+
+28 
+vœtu®
+ 
+	`£tS³ed
+()=0;
+
+30 
+vœtu®
+ 
+	`Ãxt
+()=0;
+
+31 
+vœtu®
+ ~
+	`’t™y
+();
+
+	@main.cpp
+
+1 
+	~"mašwšdow.h
+"
+
+2 
+	~<QAµliÿtiÚ
+>
+
+4 
+	$maš
+(
+¬gc
+, *
+¬gv
+[])
+
+6 
+QAµliÿtiÚ
+ 
+	`a
+(
+¬gc
+, 
+¬gv
+);
+
+7 
+MašWšdow
+ 
+w
+;
+
+8 
+w
+.
+	`show
+();
+
+10  
+a
+.
+	`exec
+();
+
+11 
+	}
+}
+
+	@mainwindow.cpp
+
+1 
+	~"mašwšdow.h
+"
+
+2 
+	~"ui_mašwšdow.h
+"
+
+3 
+	~<io¡»am
+>
+
+4 
+	~<QCŞÜDŸlog
+>
+
+5 
+	~"cœşe.h
+"
+
+6 
+	~"¬c.h
+"
+
+7 
+	~<cm©h
+>
+
+8 
+	~<QG¿phicsV›w
+>
+
+9 
+	~<QtGui
+>
+
+10 
+	$s
+(
+x
+){
+
+11  1*
+x
+;
+
+12 
+	}
+}
+
+14 
+	gMašWšdow
+::
+	$MašWšdow
+(
+QWidg‘
+ *
+·»Á
+è:
+	`QMašWšdow
+Õ¬’t), 
+	$ui
+(
+Ãw
+ 
+Ui
+::
+MašWšdow
+){
+
+15 
+ui
+->
+	`£tupUi
+(
+this
+);
+
+16 
+tim”
+ = 
+Ãw
+ 
+	`QTim”
+(
+this
+);
+
+17 
+tim”_d–ay
+=50;
+
+18 
+	`cÚÃù
+(
+tim”
+, 
+	`SIGNAL
+(
+	`timeout
+()), 
+this
+, 
+	`SLOT
+(
+	`Ãxt_¡•
+()));
+
+20 
+ui
+->
+run_·u£_but
+->
+	`£tText
+("Run");
+
+21 
+sûÃ
+ğ
+Ãw
+ 
+	`QG¿phicsSûÃ
+(
+ui
+->
+¬—
+);
+
+24 
+sûÃ
+->
+	`£tBackgroundBrush
+(
+	`QBrush
+(
+Qt
+::
+bÏck
+));
+
+25 
+cœşe
+ *
+obj
+=
+Ãw
+ 
+	`cœşe
+(50,50);
+
+26 
+¬c
+ *
+obj1
+=
+Ãw
+ 
+	`¬c
+();
+
+27 
+obj1
+->
+	`£tX
+(200);obj1->
+	`£tY
+(200);
+
+28 
+cœşe
+ *
+obj2
+=
+Ãw
+ 
+	`cœşe
+(5,55);
+
+29 
+obj
+->
+	`£tCŞÜ
+(
+Qt
+::
+wh™e
+);
+
+30 
+obj1
+->
+	`£tCŞÜ
+(
+Qt
+::
+g»’
+);
+
+31 
+obj2
+->
+	`£tCŞÜ
+(
+Qt
+::
+»d
+);
+
+32 
+obj1
+->
+	`£tSize
+(50);
+
+33 
+obj
+->
+	`£tFunùiÚ
+(
+s
+);
+
+34 
+obj1
+->
+	`£tFunùiÚ
+(
+s
+);
+
+35 
+obj2
+->
+	`£tFunùiÚ
+(
+s
+);
+
+36 
+obj2
+->
+	`£tS³ed
+(10);
+
+37 
+obj1
+->
+	`£tS³ed
+(1);
+
+38 
+obj
+->
+	`£tS³ed
+(10);
+
+39 
+obj
+->
+	`£tSize
+(50);
+
+40 
+obj
+->
+	`£tFÏg
+(
+QG¿phicsI‹m
+::
+I‹mIsMovabË
+);
+
+41 
+obj1
+->
+	`£tFÏg
+(
+QG¿phicsI‹m
+::
+I‹mIsMovabË
+);
+
+42 
+obj2
+->
+	`£tFÏg
+(
+QG¿phicsI‹m
+::
+I‹mIsMovabË
+);
+
+43 
+sûÃ
+->
+	`addI‹m
+(
+obj
+);
+
+46 
+ui
+ -> 
+¬—
+ -> 
+	`£tR’d”Hšts
+ ( 
+QPaš‹r
+ :: 
+AÁŸlŸsšg
+
+
+47 | 
+QPaš‹r
+ :: 
+SmoÙhPixm­T¿nsfÜm
+
+
+48 | 
+QPaš‹r
+ :: 
+TextAÁŸlŸsšg
+ );
+
+49 
+ui
+->
+¬—
+->
+	`£tSûÃ
+(
+sûÃ
+);
+
+50 
+ui
+->
+¬—
+->
+	`£tV›wpÜtUpd©eMode
+(
+QG¿phicsV›w
+::
+BoundšgReùV›wpÜtUpd©e
+);
+
+51 
+ui
+->
+¬—
+->
+	`£tCacheMode
+(
+QG¿phicsV›w
+::
+CacheBackground
+);
+
+52 
+ui
+->
+¬—
+->
+	`£tR’d”Hšt
+(
+QPaš‹r
+::
+AÁŸlŸsšg
+,
+çl£
+);
+
+53 
+ui
+->
+¬—
+->
+	`£tIÁ”aùive
+(
+Œue
+);
+
+55 
+	}
+}
+
+57 
+	gMašWšdow
+::~
+	$MašWšdow
+()
+
+59 
+d–‘e
+ 
+ui
+;
+
+60 
+d–‘e
+ 
+tim”
+;
+
+61 
+d–‘e
+ 
+sûÃ
+;
+
+62 
+	}
+}
+
+64 
+	gMašWšdow
+::
+	$Ú_run_·u£_but_şicked
+()
+
+66 
+boŞ
+ 
+¡©us
+=
+Œue
+;
+
+67 
+¡©us
+=!status;
+
+68 if(!
+¡©us
+){
+
+69 
+ui
+->
+run_·u£_but
+->
+	`£tText
+("Pause");
+
+70 
+tim”
+->
+	`¡¬t
+(
+tim”_d–ay
+);
+
+73 
+ui
+->
+run_·u£_but
+->
+	`£tText
+("Run");
+
+74 
+tim”
+->
+	`¡İ
+();
+
+76 
+¡d
+::
+û¼
+<<"OK!";
+
+77 
+	}
+}
+
+80 
+	gMašWšdow
+::
+	$Ú_pushBu‰Ú_şicked
+()
+
+83 
+	}
+}
+
+85 
+MašWšdow
+::
+	$Ú_¥šBox_v®ueChªged
+(
+¬g1
+)
+
+87 
+tim”_d–ay
+=(100-
+¬g1
+);
+
+88 if(
+tim”
+->
+	`isAùive
+()){
+
+89 
+tim”
+->
+	`¡İ
+();
+
+90 
+tim”
+->
+	`¡¬t
+(
+tim”_d–ay
+);
+
+93 
+	}
+}
+
+95 
+	gMašWšdow
+::
+	$Ú_£Ëù_bg_şr_şicked
+()
+
+97 
+QCŞÜ
+ 
+c
+ = 
+QCŞÜDŸlog
+::
+	`g‘CŞÜ
+(
+ui
+->
+¬—
+->
+	`backgroundBrush
+().
+	`cŞÜ
+());
+
+98 if(
+c
+.
+	`isV®id
+()){
+
+99 
+D¿wA»a
+::
+	`£tBgCŞÜ
+(
+c
+);
+
+100 
+ui
+->
+¬—
+->
+	`£tBackgroundBrush
+(
+	`QBrush
+(
+c
+));
+
+103 
+	}
+}
+
+104 
+	gMašWšdow
+::
+	$Ãxt_¡•
+(){
+
+105 
+¡d
+::
+û¼
+<<"1: "<<
+ui
+->
+¬—
+->
+	`sûÃReù
+().
+	`height
+()<<" "<<ui->¬—->sûÃReù().
+	`width
+()<<"\n";
+
+107 
+QLi¡
+<
+QG¿phicsI‹m
+ *> 
+™ems
+=
+sûÃ
+->
+	`™ems
+();
+
+108 
+i
+=0;i<
+™ems
+.
+	`size
+();++i){
+
+109 
+’t™y
+ *
+e
+ = 
+dyÇmic_ÿ¡
+<’t™y*>(
+™ems
+.
+	`©
+(
+i
+));
+
+110 
+	`fÜ—ch
+ (
+QG¿phicsI‹m
+* 
+c™m
+, 
+sûÃ
+->
+	`cŞlidšgI‹ms
+(
+™ems
+.
+	`©
+(
+i
+))) {
+
+111 if(
+™ems
+.
+	`©
+(
+i
+)!=
+c™m
+){
+
+112 
+¡d
+::
+û¼
+<<"YYY";
+
+113 
+’t™y
+ *
+û
+ = 
+dyÇmic_ÿ¡
+<’t™y*>(
+c™m
+);
+
+114 if(
+û
+&&
+e
+){
+
+115 
+û
+->
+	`£tS³ed
+(-1*û->
+	`g‘S³ed
+());
+
+116 
+û
+->
+	`Ãxt
+();
+
+117 
+e
+->
+	`£tS³ed
+(-1*e->
+	`g‘S³ed
+());
+
+118 
+e
+->
+	`Ãxt
+();
+
+123 
+	`fÜ—ch
+ (
+QG¿phicsI‹m
+* 
+™em
+, 
+™ems
+) {
+
+124 
+¡d
+::
+û¼
+<<"X: "<<
+™em
+->
+	`pos
+().
+	`x
+()<<"Y: "<<™em->pos().
+	`y
+()<<"\n";
+
+125 
+’t™y
+ *
+e
+ = 
+dyÇmic_ÿ¡
+<’t™y*>(
+™em
+);
+
+126 
+¡d
+::
+û¼
+<<"\t2: "<<
+ui
+->
+¬—
+->
+	`m­FromSûÃ
+(
+™em
+->
+	`pos
+()).
+	`x
+()<<" "<<ui->¬—->m­FromSûÃ(™em->pos()).
+	`y
+()<<"\n";
+
+128 if(!(
+ui
+->
+¬—
+->
+	`sûÃReù
+().
+	`cÚšs
+((ui->¬—->
+	`m­FromSûÃ
+(
+™em
+->
+	`boundšgReù
+())).boundingRect()))){
+
+129 
+¡d
+::
+û¼
+<<"\nSCENE RECT:: "<<
+ui
+->
+¬—
+->
+	`sûÃReù
+().
+	`x
+()<<" "<<ui->¬—->sûÃReù().
+	`y
+()<<"\t\t"<<ui->¬—->
+	`m­FromSûÃ
+(
+™em
+->
+	`boundšgReù
+()).boundingRect().x()<<" "<<ui->area->mapFromScene(item->boundingRect()).boundingRect().y();
+
+131 if(
+e
+){
+
+132 
+e
+->
+	`£tS³ed
+(-1*e->
+	`g‘S³ed
+());
+
+136 ià(
+e
+){
+
+137 
+e
+->
+	`Ãxt
+();
+
+145 
+ui
+->
+¬—
+->
+	`v›wpÜt
+()->
+	`»·št
+();
+
+151 
+	}
+}
+
+153 
+	gMašWšdow
+::
+	$Ú_¥“d_¦id”_¿ngeChªged
+(
+mš
+, 
+max
+)
+
+156 
+	}
+}
+
+157 
+	gMašWšdow
+::
+	$showEv’t
+(
+QShowEv’t
+ *) {
+
+158 
+¡d
+::
+û¼
+<<"OQOQOQ";
+
+159 
+ui
+->
+¬—
+->
+	`f™InV›w
+(
+sûÃ
+->
+	`sûÃReù
+(),
+Qt
+::
+K“pA¥eùR©ioByEx·ndšg
+);
+
+160 
+	}
+}
+
+	@mainwindow.h
+
+1 #iâdeà
+MAINWINDOW_H
+
+
+2 
+	#MAINWINDOW_H
+
+
+	)
+
+4 
+	~<QG¿phicsSûÃ
+>
+
+5 
+	~<QMašWšdow
+>
+
+6 
+	~<QTim”
+>
+
+7 
+Çme¥aû
+ 
+	gUi
+ {
+
+8 
+şass
+ 
+	gMašWšdow
+;
+
+11 şas 
+	cMašWšdow
+ : 
+public
+ 
+QMašWšdow
+
+
+13 
+Q_OBJECT
+
+
+14 
+QTim”
+ *
+tim”
+;
+
+15 
+	mtim”_d–ay
+;
+
+16 
+QG¿phicsSûÃ
+ *
+	msûÃ
+;
+
+17 
+	mpublic
+:
+
+18 
+ex¶ic™
+ 
+MašWšdow
+(
+QWidg‘
+ *
+·»Á
+ = 0);
+
+19 ~
+MašWšdow
+();
+
+20 
+showEv’t
+(
+QShowEv’t
+ *);
+
+22 
+´iv©e
+ 
+	m¦Ùs
+:
+
+23 
+Ú_run_·u£_but_şicked
+();
+
+25 
+Ú_pushBu‰Ú_şicked
+();
+
+27 
+Ú_¥šBox_v®ueChªged
+(
+¬g1
+);
+
+29 
+Ú_£Ëù_bg_şr_şicked
+();
+
+30 
+Ãxt_¡•
+();
+
+32 
+Ú_¥“d_¦id”_¿ngeChªged
+(
+mš
+, 
+max
+);
+
+34 
+	m´iv©e
+:
+
+35 
+Ui
+::
+MašWšdow
+ *
+ui
+;
+
+	@moc_drawarea.cpp
+
+9 
+	~"d¿w¬—.h
+"
+
+10 #ià!
+defšed
+(
+Q_MOC_OUTPUT_REVISION
+)
+
+12 #–ià
+Q_MOC_OUTPUT_REVISION
+ != 63
+
+18 
+QT_BEGIN_MOC_NAMESPACE
+
+
+19 cÚ¡ 
+ušt
+ 
+	gqt_m‘a_d©a_D¿wA»a
+[] = {
+
+35 cÚ¡ 
+	gqt_m‘a_¡ršgd©a_D¿wA»a
+[] = {
+
+39 
+	gD¿wA»a
+::
+	$qt_¡©ic_m‘aÿÎ
+(
+QObjeù
+ *
+_o
+, 
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+41 
+	`Q_UNUSED
+(
+_o
+);
+
+42 
+	`Q_UNUSED
+(
+_id
+);
+
+43 
+	`Q_UNUSED
+(
+_c
+);
+
+44 
+	`Q_UNUSED
+(
+_a
+);
+
+45 
+	}
+}
+
+47 cÚ¡ 
+QM‘aObjeùExŒaD©a
+ 
+	gD¿wA»a
+::
+¡©icM‘aObjeùExŒaD©a
+ = {
+
+48 0, 
+qt_¡©ic_m‘aÿÎ
+
+
+51 cÚ¡ 
+QM‘aObjeù
+ 
+	gD¿wA»a
+::
+¡©icM‘aObjeù
+ = {
+
+52 { &
+QG¿phicsV›w
+::
+¡©icM‘aObjeù
+, 
+qt_m‘a_¡ršgd©a_D¿wA»a
+,
+
+53 
+qt_m‘a_d©a_D¿wA»a
+, &
+¡©icM‘aObjeùExŒaD©a
+ }
+
+56 #ifdeà
+Q_NO_DATA_RELOCATION
+
+
+57 cÚ¡ 
+	gQM‘aObjeù
+ &
+	gD¿wA»a
+::
+	$g‘SticM‘aObjeù
+(è{  
+¡©icM‘aObjeù
+; 
+	}
+}
+
+60 cÚ¡ 
+QM‘aObjeù
+ *
+	gD¿wA»a
+::
+	$m‘aObjeù
+() const
+
+62  
+QObjeù
+::
+d_±r
+->
+m‘aObjeù
+ ? QObjeù::d_±r->m‘aObjeù : &
+¡©icM‘aObjeù
+;
+
+63 
+	}
+}
+
+65 *
+	gD¿wA»a
+::
+	$qt_m‘aÿ¡
+(cÚ¡ *
+_şÇme
+)
+
+67 ià(!
+_şÇme
+)  0;
+
+68 ià(!
+	`¡rcmp
+(
+_şÇme
+, 
+qt_m‘a_¡ršgd©a_D¿wA»a
+))
+
+69  
+¡©ic_ÿ¡
+<*>(
+cÚ¡_ÿ¡
+< 
+D¿wA»a
+*>(
+this
+));
+
+70  
+QG¿phicsV›w
+::
+	`qt_m‘aÿ¡
+(
+_şÇme
+);
+
+71 
+	}
+}
+
+73 
+	gD¿wA»a
+::
+	$qt_m‘aÿÎ
+(
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+75 
+_id
+ = 
+QG¿phicsV›w
+::
+	`qt_m‘aÿÎ
+(
+_c
+, _id, 
+_a
+);
+
+76 ià(
+_id
+ < 0)
+
+77  
+_id
+;
+
+78  
+_id
+;
+
+79 
+	}
+}
+
+80 
+	gQT_END_MOC_NAMESPACE
+
+
+	@moc_mainwindow.cpp
+
+9 
+	~"mašwšdow.h
+"
+
+10 #ià!
+defšed
+(
+Q_MOC_OUTPUT_REVISION
+)
+
+12 #–ià
+Q_MOC_OUTPUT_REVISION
+ != 63
+
+18 
+QT_BEGIN_MOC_NAMESPACE
+
+
+19 cÚ¡ 
+ušt
+ 
+	gqt_m‘a_d©a_MašWšdow
+[] = {
+
+43 cÚ¡ 
+	gqt_m‘a_¡ršgd©a_MašWšdow
+[] = {
+
+51 
+	gMašWšdow
+::
+	$qt_¡©ic_m‘aÿÎ
+(
+QObjeù
+ *
+_o
+, 
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+53 ià(
+_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+54 
+	`Q_ASSERT
+(
+¡©icM‘aObjeù
+.
+	`ÿ¡
+(
+_o
+));
+
+55 
+MašWšdow
+ *
+_t
+ = 
+¡©ic_ÿ¡
+<MašWšdow *>(
+_o
+);
+
+56 
+_id
+) {
+
+57 0: 
+_t
+->
+	`Ú_run_·u£_but_şicked
+(); ;
+
+58 1: 
+_t
+->
+	`Ú_pushBu‰Ú_şicked
+(); ;
+
+59 2: 
+_t
+->
+	`Ú_¥šBox_v®ueChªged
+((*
+»š‹½»t_ÿ¡
+< (*)>(
+_a
+[1]))); ;
+
+60 3: 
+_t
+->
+	`Ú_£Ëù_bg_şr_şicked
+(); ;
+
+61 4: 
+_t
+->
+	`Ãxt_¡•
+(); ;
+
+62 5: 
+_t
+->
+	`Ú_¥“d_¦id”_¿ngeChªged
+((*
+»š‹½»t_ÿ¡
+< (*)>(
+_a
+[1])),(*reinterpret_cast< (*)>(_a[2]))); ;
+
+66 
+	}
+}
+
+68 cÚ¡ 
+QM‘aObjeùExŒaD©a
+ 
+	gMašWšdow
+::
+¡©icM‘aObjeùExŒaD©a
+ = {
+
+69 0, 
+qt_¡©ic_m‘aÿÎ
+
+
+72 cÚ¡ 
+QM‘aObjeù
+ 
+	gMašWšdow
+::
+¡©icM‘aObjeù
+ = {
+
+73 { &
+QMašWšdow
+::
+¡©icM‘aObjeù
+, 
+qt_m‘a_¡ršgd©a_MašWšdow
+,
+
+74 
+qt_m‘a_d©a_MašWšdow
+, &
+¡©icM‘aObjeùExŒaD©a
+ }
+
+77 #ifdeà
+Q_NO_DATA_RELOCATION
+
+
+78 cÚ¡ 
+	gQM‘aObjeù
+ &
+	gMašWšdow
+::
+	$g‘SticM‘aObjeù
+(è{  
+¡©icM‘aObjeù
+; 
+	}
+}
+
+81 cÚ¡ 
+QM‘aObjeù
+ *
+	gMašWšdow
+::
+	$m‘aObjeù
+() const
+
+83  
+QObjeù
+::
+d_±r
+->
+m‘aObjeù
+ ? QObjeù::d_±r->m‘aObjeù : &
+¡©icM‘aObjeù
+;
+
+84 
+	}
+}
+
+86 *
+	gMašWšdow
+::
+	$qt_m‘aÿ¡
+(cÚ¡ *
+_şÇme
+)
+
+88 ià(!
+_şÇme
+)  0;
+
+89 ià(!
+	`¡rcmp
+(
+_şÇme
+, 
+qt_m‘a_¡ršgd©a_MašWšdow
+))
+
+90  
+¡©ic_ÿ¡
+<*>(
+cÚ¡_ÿ¡
+< 
+MašWšdow
+*>(
+this
+));
+
+91  
+QMašWšdow
+::
+	`qt_m‘aÿ¡
+(
+_şÇme
+);
+
+92 
+	}
+}
+
+94 
+	gMašWšdow
+::
+	$qt_m‘aÿÎ
+(
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+96 
+_id
+ = 
+QMašWšdow
+::
+	`qt_m‘aÿÎ
+(
+_c
+, _id, 
+_a
+);
+
+97 ià(
+_id
+ < 0)
+
+98  
+_id
+;
+
+99 ià(
+_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+100 ià(
+_id
+ < 6)
+
+101 
+	`qt_¡©ic_m‘aÿÎ
+(
+this
+, 
+_c
+, 
+_id
+, 
+_a
+);
+
+102 
+_id
+ -= 6;
+
+104  
+_id
+;
+
+105 
+	}
+}
+
+106 
+	gQT_END_MOC_NAMESPACE
+
+
+	@ui_mainwindow.h
+
+9 #iâdeà
+UI_MAINWINDOW_H
+
+
+10 
+	#UI_MAINWINDOW_H
+
+
+	)
+
+12 
+	~<QtCÜe/QV¬ŸÁ
+>
+
+13 
+	~<QtGui/QAùiÚ
+>
+
+14 
+	~<QtGui/QAµliÿtiÚ
+>
+
+15 
+	~<QtGui/QBu‰ÚGroup
+>
+
+16 
+	~<QtGui/QHBoxLayout
+>
+
+17 
+	~<QtGui/QH—d”V›w
+>
+
+18 
+	~<QtGui/QLab–
+>
+
+19 
+	~<QtGui/QMašWšdow
+>
+
+20 
+	~<QtGui/QM’uB¬
+>
+
+21 
+	~<QtGui/QPushBu‰Ú
+>
+
+22 
+	~<QtGui/QSlid”
+>
+
+23 
+	~<QtGui/QS·ûrI‹m
+>
+
+24 
+	~<QtGui/QSpšBox
+>
+
+25 
+	~<QtGui/QStusB¬
+>
+
+26 
+	~<QtGui/QToŞB¬
+>
+
+27 
+	~<QtGui/QVBoxLayout
+>
+
+28 
+	~<QtGui/QWidg‘
+>
+
+29 
+	~"d¿w¬—.h
+"
+
+31 
+QT_BEGIN_NAMESPACE
+
+
+33 şas 
+	cUi_MašWšdow
+
+
+35 
+	mpublic
+:
+
+36 
+QWidg‘
+ *
+ûÁ¿lWidg‘
+;
+
+37 
+QWidg‘
+ *
+	mÏyoutWidg‘
+;
+
+38 
+QHBoxLayout
+ *
+	mhÜizÚlLayout_3
+;
+
+39 
+QHBoxLayout
+ *
+	mhÜizÚlLayout_2
+;
+
+40 
+D¿wA»a
+ *
+	m¬—
+;
+
+41 
+QVBoxLayout
+ *
+	mv”tiÿlLayout
+;
+
+42 
+QS·ûrI‹m
+ *
+	mv”tiÿlS·ûr
+;
+
+43 
+QPushBu‰Ú
+ *
+	mrun_·u£_but
+;
+
+44 
+QHBoxLayout
+ *
+	mhÜizÚlLayout
+;
+
+45 
+QLab–
+ *
+	mÏb–
+;
+
+46 
+QSpšBox
+ *
+	m¥šBox
+;
+
+47 
+QSlid”
+ *
+	m¥“d_¦id”
+;
+
+48 
+QPushBu‰Ú
+ *
+	m£Ëù_bg_şr
+;
+
+49 
+QS·ûrI‹m
+ *
+	mv”tiÿlS·ûr_2
+;
+
+50 
+QM’uB¬
+ *
+	mm’uB¬
+;
+
+51 
+QToŞB¬
+ *
+	mmašToŞB¬
+;
+
+52 
+QStusB¬
+ *
+	m¡©usB¬
+;
+
+54 
+	$£tupUi
+(
+QMašWšdow
+ *
+MašWšdow
+)
+
+56 ià(
+MašWšdow
+->
+	`objeùName
+().
+	`isEm±y
+())
+
+57 
+MašWšdow
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("MainWindow"));
+
+58 
+MašWšdow
+->
+	`»size
+(650, 561);
+
+59 
+QSizePŞicy
+ 
+	`sizePŞicy
+(QSizePŞicy::
+Maximum
+, QSizePolicy::Maximum);
+
+60 
+sizePŞicy
+.
+	`£tHÜizÚlSŒ‘ch
+(0);
+
+61 
+sizePŞicy
+.
+	`£tV”tiÿlSŒ‘ch
+(0);
+
+62 
+sizePŞicy
+.
+	`£tHeightFÜWidth
+(
+MašWšdow
+->
+	`sizePŞicy
+().
+	`hasHeightFÜWidth
+());
+
+63 
+MašWšdow
+->
+	`£tSizePŞicy
+(
+sizePŞicy
+);
+
+64 
+MašWšdow
+->
+	`£tMšimumSize
+(
+	`QSize
+(650, 520));
+
+65 
+ûÁ¿lWidg‘
+ = 
+Ãw
+ 
+	`QWidg‘
+(
+MašWšdow
+);
+
+66 
+ûÁ¿lWidg‘
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("centralWidget"));
+
+67 
+sizePŞicy
+.
+	`£tHeightFÜWidth
+(
+ûÁ¿lWidg‘
+->
+	`sizePŞicy
+().
+	`hasHeightFÜWidth
+());
+
+68 
+ûÁ¿lWidg‘
+->
+	`£tSizePŞicy
+(
+sizePŞicy
+);
+
+69 
+ÏyoutWidg‘
+ = 
+Ãw
+ 
+	`QWidg‘
+(
+ûÁ¿lWidg‘
+);
+
+70 
+ÏyoutWidg‘
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("layoutWidget"));
+
+71 
+ÏyoutWidg‘
+->
+	`£tGeom‘ry
+(
+	`QReù
+(9, 0, 629, 504));
+
+72 
+hÜizÚlLayout_3
+ = 
+Ãw
+ 
+	`QHBoxLayout
+(
+ÏyoutWidg‘
+);
+
+73 
+hÜizÚlLayout_3
+->
+	`£tS·cšg
+(6);
+
+74 
+hÜizÚlLayout_3
+->
+	`£tCÚ‹ÁsM¬gšs
+(11, 11, 11, 11);
+
+75 
+hÜizÚlLayout_3
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("horizontalLayout_3"));
+
+76 
+hÜizÚlLayout_3
+->
+	`£tCÚ‹ÁsM¬gšs
+(0, 0, 0, 0);
+
+77 
+hÜizÚlLayout_2
+ = 
+Ãw
+ 
+	`QHBoxLayout
+();
+
+78 
+hÜizÚlLayout_2
+->
+	`£tS·cšg
+(6);
+
+79 
+hÜizÚlLayout_2
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("horizontalLayout_2"));
+
+80 
+hÜizÚlLayout_2
+->
+	`£tSizeCÚ¡¿št
+(
+QLayout
+::
+S‘DeçuÉCÚ¡¿št
+);
+
+81 
+¬—
+ = 
+Ãw
+ 
+	`D¿wA»a
+(
+ÏyoutWidg‘
+);
+
+82 
+¬—
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("area"));
+
+83 
+QSizePŞicy
+ 
+	`sizePŞicy1
+(QSizePŞicy::
+P»ã¼ed
+, QSizePolicy::Preferred);
+
+84 
+sizePŞicy1
+.
+	`£tHÜizÚlSŒ‘ch
+(0);
+
+85 
+sizePŞicy1
+.
+	`£tV”tiÿlSŒ‘ch
+(0);
+
+86 
+sizePŞicy1
+.
+	`£tHeightFÜWidth
+(
+¬—
+->
+	`sizePŞicy
+().
+	`hasHeightFÜWidth
+());
+
+87 
+¬—
+->
+	`£tSizePŞicy
+(
+sizePŞicy1
+);
+
+88 
+¬—
+->
+	`£tMšimumSize
+(
+	`QSize
+(500, 500));
+
+89 
+¬—
+->
+	`£tSizeInüem’t
+(
+	`QSize
+(0, 0));
+
+90 
+¬—
+->
+	`£tV”tiÿlSüŞlB¬PŞicy
+(
+Qt
+::
+SüŞlB¬AlwaysOff
+);
+
+91 
+¬—
+->
+	`£tHÜizÚlSüŞlB¬PŞicy
+(
+Qt
+::
+SüŞlB¬AlwaysOff
+);
+
+92 
+¬—
+->
+	`£tSûÃReù
+(
+	`QReùF
+(0, 0, 0, 0));
+
+93 
+¬—
+->
+	`£tV›wpÜtUpd©eMode
+(
+QG¿phicsV›w
+::
+FuÎV›wpÜtUpd©e
+);
+
+95 
+hÜizÚlLayout_2
+->
+	`addWidg‘
+(
+¬—
+);
+
+97 
+v”tiÿlLayout
+ = 
+Ãw
+ 
+	`QVBoxLayout
+();
+
+98 
+v”tiÿlLayout
+->
+	`£tS·cšg
+(6);
+
+99 
+v”tiÿlLayout
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("verticalLayout"));
+
+100 
+v”tiÿlLayout
+->
+	`£tSizeCÚ¡¿št
+(
+QLayout
+::
+S‘MšimumSize
+);
+
+101 
+v”tiÿlS·ûr
+ = 
+Ãw
+ 
+	`QS·ûrI‹m
+(20, 40, 
+QSizePŞicy
+::
+Mšimum
+, QSizePŞicy::
+Ex·ndšg
+);
+
+103 
+v”tiÿlLayout
+->
+	`addI‹m
+(
+v”tiÿlS·ûr
+);
+
+105 
+run_·u£_but
+ = 
+Ãw
+ 
+	`QPushBu‰Ú
+(
+ÏyoutWidg‘
+);
+
+106 
+run_·u£_but
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("run_pause_but"));
+
+108 
+v”tiÿlLayout
+->
+	`addWidg‘
+(
+run_·u£_but
+);
+
+110 
+hÜizÚlLayout
+ = 
+Ãw
+ 
+	`QHBoxLayout
+();
+
+111 
+hÜizÚlLayout
+->
+	`£tS·cšg
+(6);
+
+112 
+hÜizÚlLayout
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("horizontalLayout"));
+
+113 
+hÜizÚlLayout
+->
+	`£tSizeCÚ¡¿št
+(
+QLayout
+::
+S‘MšimumSize
+);
+
+114 
+Ïb–
+ = 
+Ãw
+ 
+	`QLab–
+(
+ÏyoutWidg‘
+);
+
+115 
+Ïb–
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("label"));
+
+117 
+hÜizÚlLayout
+->
+	`addWidg‘
+(
+Ïb–
+);
+
+119 
+¥šBox
+ = 
+Ãw
+ 
+	`QSpšBox
+(
+ÏyoutWidg‘
+);
+
+120 
+¥šBox
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("spinBox"));
+
+121 
+¥šBox
+->
+	`£tV®ue
+(50);
+
+123 
+hÜizÚlLayout
+->
+	`addWidg‘
+(
+¥šBox
+);
+
+126 
+v”tiÿlLayout
+->
+	`addLayout
+(
+hÜizÚlLayout
+);
+
+128 
+¥“d_¦id”
+ = 
+Ãw
+ 
+	`QSlid”
+(
+ÏyoutWidg‘
+);
+
+129 
+¥“d_¦id”
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("speed_slider"));
+
+130 
+¥“d_¦id”
+->
+	`£tMaximum
+(99);
+
+131 
+¥“d_¦id”
+->
+	`£tSšgËS‹p
+(0);
+
+132 
+¥“d_¦id”
+->
+	`£tV®ue
+(50);
+
+133 
+¥“d_¦id”
+->
+	`£tOr›Á©iÚ
+(
+Qt
+::
+HÜizÚl
+);
+
+135 
+v”tiÿlLayout
+->
+	`addWidg‘
+(
+¥“d_¦id”
+);
+
+137 
+£Ëù_bg_şr
+ = 
+Ãw
+ 
+	`QPushBu‰Ú
+(
+ÏyoutWidg‘
+);
+
+138 
+£Ëù_bg_şr
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("select_bg_clr"));
+
+140 
+v”tiÿlLayout
+->
+	`addWidg‘
+(
+£Ëù_bg_şr
+);
+
+142 
+v”tiÿlS·ûr_2
+ = 
+Ãw
+ 
+	`QS·ûrI‹m
+(20, 40, 
+QSizePŞicy
+::
+Mšimum
+, QSizePŞicy::
+Ex·ndšg
+);
+
+144 
+v”tiÿlLayout
+->
+	`addI‹m
+(
+v”tiÿlS·ûr_2
+);
+
+147 
+hÜizÚlLayout_2
+->
+	`addLayout
+(
+v”tiÿlLayout
+);
+
+150 
+hÜizÚlLayout_3
+->
+	`addLayout
+(
+hÜizÚlLayout_2
+);
+
+152 
+MašWšdow
+->
+	`£tC’Œ®Widg‘
+(
+ûÁ¿lWidg‘
+);
+
+153 
+m’uB¬
+ = 
+Ãw
+ 
+	`QM’uB¬
+(
+MašWšdow
+);
+
+154 
+m’uB¬
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("menuBar"));
+
+155 
+m’uB¬
+->
+	`£tGeom‘ry
+(
+	`QReù
+(0, 0, 650, 23));
+
+156 
+MašWšdow
+->
+	`£tM’uB¬
+(
+m’uB¬
+);
+
+157 
+mašToŞB¬
+ = 
+Ãw
+ 
+	`QToŞB¬
+(
+MašWšdow
+);
+
+158 
+mašToŞB¬
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("mainToolBar"));
+
+159 
+MašWšdow
+->
+	`addToŞB¬
+(
+Qt
+::
+TİToŞB¬A»a
+, 
+mašToŞB¬
+);
+
+160 
+¡©usB¬
+ = 
+Ãw
+ 
+	`QStusB¬
+(
+MašWšdow
+);
+
+161 
+¡©usB¬
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("statusBar"));
+
+162 
+MašWšdow
+->
+	`£tStusB¬
+(
+¡©usB¬
+);
+
+163 #iâdeà
+QT_NO_SHORTCUT
+
+
+164 
+Ïb–
+->
+	`£tBuddy
+(
+¥šBox
+);
+
+167 
+	`»Œª¦©eUi
+(
+MašWšdow
+);
+
+168 
+QObjeù
+::
+	`cÚÃù
+(
+¥“d_¦id”
+, 
+	`SIGNAL
+(
+	`v®ueChªged
+()), 
+¥šBox
+, 
+	`SLOT
+(
+	`£tV®ue
+()));
+
+169 
+QObjeù
+::
+	`cÚÃù
+(
+¥šBox
+, 
+	`SIGNAL
+(
+	`v®ueChªged
+()), 
+¥“d_¦id”
+, 
+	`SLOT
+(
+	`£tV®ue
+()));
+
+171 
+QM‘aObjeù
+::
+	`cÚÃùSlÙsByName
+(
+MašWšdow
+);
+
+174 
+	$»Œª¦©eUi
+(
+QMašWšdow
+ *
+MašWšdow
+)
+
+176 
+MašWšdow
+->
+	`£tWšdowT™Ë
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("MašWšdow", "Objeùs", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+177 
+run_·u£_but
+->
+	`£tText
+(
+	`QSŒšg
+());
+
+178 
+Ïb–
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("MašWšdow", "S³ed:", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+179 
+£Ëù_bg_şr
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("MainWindow", "Baground\n"
+
+180 " CŞÜ", 0, 
+QAµliÿtiÚ
+::
+UnicodeUTF8
+));
+
+181 
+	}
+}
+
+185 
+Çme¥aû
+ 
+	gUi
+ {
+
+186 şas 
+	cMašWšdow
+: 
+public
+ 
+Ui_MašWšdow
+ {};
+
+189 
+	gQT_END_NAMESPACE
+
+
+	@
+1
+.
+0
+14
+167
+arc.cpp
+arc.h
+circle.cpp
+circle.h
+drawarea.cpp
+drawarea.h
+entity.cpp
+entity.h
+main.cpp
+mainwindow.cpp
+mainwindow.h
+moc_drawarea.cpp
+moc_mainwindow.cpp
+ui_mainwindow.h

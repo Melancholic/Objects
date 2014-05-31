@@ -16,11 +16,15 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     drawarea.cpp \
     circle.cpp \
-    entity.cpp
+    entity.cpp \
+    arc.cpp
 
 HEADERS  += mainwindow.h \
     drawarea.h \
     entity.h \
-    circle.h
+    circle.h \
+    arc.h
 
 FORMS    += mainwindow.ui
+
+DEFINES += QT_NO_DEBUG_OUTPUT

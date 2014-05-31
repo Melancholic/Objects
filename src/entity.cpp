@@ -1,4 +1,5 @@
 #include "entity.h"
+#include<QDebug>
 
 entity::entity(){
     x=0;

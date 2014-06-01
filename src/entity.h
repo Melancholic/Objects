@@ -6,26 +6,27 @@ typedef double (*fun_t)(double);
 class entity{
 
 protected:
-        int x,y,size,speed;
+        int size;
+        double x,y,speed;
         QColor color;
         fun_t function;
         entity();
-        entity(int X, int Y);
-        entity(int X, int Y, int Size);
-        entity(int X, int Y, int Size, QColor Color);
+        entity(double X, double Y);
+        entity(double X, double Y, int Size);
+        entity(double X, double Y, int Size, QColor Color);
 public:
-    virtual int getX()=0;
-    virtual int getY()=0;
+    virtual double getX()=0;
+    virtual double getY()=0;
     virtual int getSize()=0;
     virtual fun_t getFunction()=0;
     virtual QColor getColor()=0;
-    virtual int getSpeed()=0;
-    virtual void setX(int)=0;
-    virtual void setY(int)=0;
+    virtual double getSpeed()=0;
+    virtual void setX(double)=0;
+    virtual void setY(double)=0;
     virtual void setSize(int)=0;
     virtual void setColor(QColor)=0;
     virtual void setFunction(fun_t)=0;
-    virtual void setSpeed(int)=0;
+    virtual void setSpeed(double)=0;
 
     virtual void next()=0;
     virtual ~entity();

@@ -27,4 +27,4 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui
 
-DEFINES += QT_NO_DEBUG_OUTPUT
+#DEFINES += QT_NO_DEBUG_OUTPUT

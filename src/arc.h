@@ -7,7 +7,7 @@ class arc: public  circle{
     int SizeInner;
 public:
     arc();
-    arc(int X, int Y, int Size, QColor Color1, QColor Color2);
+    arc(double X, double Y, int Size, QColor Color1, QColor Color2);
     QColor getColorInner();
     void setColorInner(QColor);
     void paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*);//отрисовка

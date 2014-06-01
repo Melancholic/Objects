@@ -6,7 +6,7 @@ arc::arc():circle(){
     setColorInner(DrawArea::getBgColor());
     setSizeInner(20);
 }
-arc::arc(int X, int Y, int Size, QColor Color1, QColor Color2):circle(X,Y,Size,Color1){
+arc::arc(double X, double Y, int Size, QColor Color1, QColor Color2):circle(X,Y,Size,Color1){
     setColorInner(Color2);
 
 }
@@ -31,9 +31,9 @@ void arc::paint(QPainter*painter, const QStyleOptionGraphicsItem* o, QWidget* w)
          painter->save();
          circle::paint(painter,o,w);
          painter->setBrush(QBrush(ColorInner));
-         painter->drawEllipse(pos().x()-SizeInner/2,pos().y()-SizeInner/2,SizeInner,SizeInner);
+         painter->drawEllipse(entity::x-SizeInner/2,entity::y-
+                              SizeInner/2,SizeInner,SizeInner);
          painter->restore();
-         qDebug()<<"\nCHILD POS X "<<pos().x()<<" ROOT POS Y "<<pos().y();
  }
 void arc::next(){
     circle::next();

@@ -13,5 +13,9 @@ public:
     DrawArea(QWidget* par);
     static void setBgColor(QColor);
     static QColor getBgColor();
+protected:
+    void mouseDoubleClickEvent(QMouseEvent*);
+signals:
+    void doubleClick();
 };
 #endif // DRAWAREA_H

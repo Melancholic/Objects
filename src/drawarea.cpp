@@ -8,15 +8,19 @@
 #include<QDebug>
 QColor DrawArea::BgColor;
 
+
 void DrawArea::resizeEvent(QResizeEvent *evnt)
 {
     qDebug()<<"resize from "<<scene()->sceneRect().width()<<" "<<scene()->sceneRect().height();
-    if(scene()){
-        scene()->setSceneRect(QRect(QPoint(-evnt->size().width()/2,-evnt->size().height()/2),evnt->size()));
+   /* if(scene()){
+        scene()->setSceneRect(QRect(QPoint(0,0),evnt->size()));
 
-    }
+    }*/
     fitInView(scene()->sceneRect(),Qt::KeepAspectRatio);
+  // scale(evnt->size().width()/scene()->sceneRect().width(),evnt->size().width()/scene()->sceneRect().width());
+  // setSceneRect(scene()->sceneRect());
 qDebug()<<"res:  "<<scene()->sceneRect().width()<<" "<<scene()->sceneRect().height();
+    //scene()->addRect(scene()->sceneRect(),QPen(Qt::red));
     QGraphicsView::resizeEvent(evnt);
 }
 
@@ -29,3 +33,8 @@ void DrawArea::setBgColor(QColor Color){
 QColor DrawArea::getBgColor(){
     return DrawArea::BgColor;
 }
+void DrawArea::mouseDoubleClickEvent(QMouseEvent* /*event*/)
+{
+    doubleClick();
+}
+

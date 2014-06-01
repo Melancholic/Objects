@@ -6,12 +6,12 @@
 
 
 circle::circle():entity(){
-    setFlag(ItemIsMovable,true);
+    //setFlag(ItemIsMovable,true);
     setX(entity::x);
     setY(entity::x);
 }
 
-circle::circle(int X, int Y):entity(X,Y){
+circle::circle(double X, double Y):entity(X,Y){
     setX(X);
     setY(Y);
 
@@ -24,19 +24,19 @@ circle::circle(entity& arg){
      setFlag(ItemIsMovable,true);
 }
 
-circle::circle(int X, int Y, int Size):entity(X,Y,Size){
+circle::circle(double X, double Y, int Size):entity(X,Y,Size){
     setFlag(ItemIsMovable,true);
 }
-circle::circle(int X, int Y, int Size, QColor Color):entity(X,Y,Size,Color){
+circle::circle(double X, double Y, int Size, QColor Color):entity(X,Y,Size,Color){
     setFlag(ItemIsMovable,true);
 }
 
 circle::~circle(){
 }
-int circle::getX(){
+double circle::getX(){
     return  entity::x;
 }
-int circle::getY(){
+double circle::getY(){
     return  entity::y;
 }
 
@@ -53,19 +53,19 @@ fun_t circle::getFunction(){
     return entity::function;
 }
 
-int circle::getSpeed(){
+double circle::getSpeed(){
     return entity::speed;
 }
 
 
-void circle::setX(int a){
+void circle::setX(double a){
      entity::x=a;
-     this->setPos(a,entity::y);
+     //this->setPos(a,entity::y);
 }
 
-void circle::setY(int a){
+void circle::setY(double a){
      entity::y=a;
-     this->setPos(entity::x,a);
+    // this->setPos(entity::x,a);
 }
 void circle::setSize(int a){
      entity::size=a;
@@ -79,27 +79,25 @@ void circle::setColor(QColor a){
 void circle::setFunction(fun_t f){
     entity::function=f;
 }
-void circle::setSpeed(int a){
+void circle::setSpeed(double a){
     entity::speed=a;
 }
 
 QRectF circle::boundingRect() const{
-    return QRect(pos().x()-entity::size/2,pos().y()-entity::size/2,entity::size,entity::size);
+    return QRect(entity::x-entity::size/2,entity::y-entity::size/2,entity::size,entity::size);
 }
 
-void circle::paint(QPainter *painter, const QStyleOptionGraphicsItem *,
-                QWidget *){
+void circle::paint(QPainter *painter, const QStyleOptionGraphicsItem *,QWidget *){
      painter->save();
      painter->setBrush(QBrush(entity::color));
-     painter->drawEllipse(pos().x()-entity::size/2,pos().y()-entity::size/2,entity::size,entity::size);
+     painter->drawEllipse(entity::x-entity::size/2,entity::y-entity::size/2,entity::size,entity::size);
      painter->restore();
-     qDebug()<<"\nROOT POS X "<<pos().x()<<" ROOT POS Y "<<pos().y();
 }
 
 void circle::next(){
     entity::x+=entity::speed;
     entity::y=entity::function(entity::x);
-    this->setPos(entity::x,entity::y);
+    //this->setPos(entity::x,entity::y);
 }
 
  QPainterPath  circle::shape() const{

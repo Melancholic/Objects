@@ -14,6 +14,8 @@ class MainWindow : public QMainWindow
     QTimer *timer;
     int timer_delay;
     QGraphicsScene *scene;
+    bool fullMode;
+    int index;
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
@@ -30,6 +32,8 @@ private slots:
     void next_step();
 
     void on_speed_slider_rangeChanged(int min, int max);
+
+    void fullScreenArea();
 
 private:
     Ui::MainWindow *ui;

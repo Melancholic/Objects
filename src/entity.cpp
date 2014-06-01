@@ -12,20 +12,20 @@ entity::~entity(){
 
 }
 
-entity::entity(int X, int Y){
+entity::entity(double X, double Y){
     x=X;
     y=Y;
     size=10;
     color=Qt::white;
 }
-entity::entity(int X, int Y, int Size){
+entity::entity(double X, double Y, int Size){
     x=X;
     y=Y;
     size=Size;
     color=Qt::white;
 }
 
-entity::entity(int X, int Y, int Size, QColor Color){
+entity::entity(double X, double Y, int Size, QColor Color){
     x=X;
     y=Y;
     size=Size;

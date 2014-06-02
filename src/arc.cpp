@@ -4,10 +4,16 @@
 #include<QDebug>
 arc::arc():circle(){
     setColorInner(DrawArea::getBgColor());
-    setSizeInner(20);
+    setSizeInner(5);
 }
 arc::arc(double X, double Y, int Size, QColor Color1, QColor Color2):circle(X,Y,Size,Color1){
     setColorInner(Color2);
+
+}
+
+arc::arc(double X, double Y, int Size):circle(X,Y,Size){
+    setSizeInner(5);
+    setColorInner(DrawArea::getBgColor());
 
 }
 

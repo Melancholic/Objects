@@ -17,13 +17,15 @@ SOURCES += main.cpp\
     drawarea.cpp \
     circle.cpp \
     entity.cpp \
-    arc.cpp
+    arc.cpp \
+    functions.cpp
 
 HEADERS  += mainwindow.h \
     drawarea.h \
     entity.h \
     circle.h \
-    arc.h
+    arc.h \
+    functions.h
 
 FORMS    += mainwindow.ui
 

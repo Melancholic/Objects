@@ -4,21 +4,12 @@
 #include <QColorDialog>
 #include"circle.h"
 #include"arc.h"
-#include<cmath>
 #include <QGraphicsView>
 #include<QtGui>
 #include<QDebug>
 #include<QGraphicsRectItem>
-double s(double x){
-    return 100;
-}
+#include"functions.h"
 
-double s1(double x){
-    return x+20;
-}
-double s2(double x){
-    return x*5;
-}
 MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),  ui(new Ui::MainWindow){
     ui->setupUi(this);
     timer = new QTimer(this);
@@ -27,33 +18,11 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),  ui(new Ui::MainWi
      ui->run_pause_but->setText("Run");
      scene= new QGraphicsScene(this);
      ui->area->scale(1,-1);
-     QRect vis_rect(0,0,ui->area->width(),ui->area->height());
+     QRect vis_rect(-ui->area->width(),-ui->area->height(),ui->area->width()*2,ui->area->height()*2);
     scene->setSceneRect(vis_rect);
      scene->setBackgroundBrush(QBrush(Qt::black));
-     circle *obj=new circle(50,50);
-     arc *obj1=new arc();
-     obj1->setX(200);obj1->setY(200);
-     obj1->setSize(11);
-     circle *obj2=new circle(100,155);
-     obj->setColor(Qt::white);
-     obj1->setColor(Qt::green);
-     obj2->setColor(Qt::red);
-     obj1->setSize(50);
-     obj->setFunction(s);
-     obj1->setFunction(s1);
-     obj2->setFunction(s2);
-     obj2->setSpeed(1);
-     obj1->setSpeed(1);
-     obj->setSpeed(10);
-     obj->setSize(50);
-     obj2->setSize(50);
-  /*   obj->setFlag(QGraphicsItem::ItemIsMovable);
-     obj1->setFlag(QGraphicsItem::ItemIsMovable);
-     obj2->setFlag(QGraphicsItem::ItemIsMovable);*/
-        scene->addRect(scene->sceneRect(),QPen(Qt::red));
-     scene->addItem(obj);
-     scene->addItem(obj2);
-     scene->addItem(obj1);
+     addObjects();
+     scene->addRect(scene->sceneRect(),QPen(Qt::red));
      ui -> area -> setRenderHints ( QPainter :: Antialiasing
              |  QPainter :: SmoothPixmapTransform
              |  QPainter :: TextAntialiasing );
@@ -72,6 +41,46 @@ MainWindow::~MainWindow()
     delete ui;
     delete timer;
     delete scene;
+}
+std::pair<double,double>MainWindow::getRandXY(){
+    qsrand(time(0));
+    return std::make_pair(qrand()%(ui->area->width()),qrand()%(ui->area->height()));
+}
+
+void MainWindow::addObjects(){
+    std::pair<double,double> xy;
+
+    xy=getRandXY();
+    circle *Circle = new circle(xy.first,xy.second);
+    Circle->setFunction(functions::x);
+    scene->addItem(Circle);
+
+    xy=getRandXY();
+    arc *Arc = new arc(xy.first,xy.second,qrand()%50+5);
+    Arc->setColor(Qt::red);
+    Arc->setFunction(functions::minus);
+    scene->addItem(Arc);
+  /*  circle *obj=new circle(50,50);
+    arc *obj1=new arc();
+    obj1->setX(200);obj1->setY(200);
+    obj1->setSize(11);
+    circle *obj2=new circle(100,155);
+    obj->setColor(Qt::white);
+    obj1->setColor(Qt::green);
+    obj2->setColor(Qt::red);
+    obj1->setSize(50);
+    obj->setFunction(s);
+    obj1->setFunction(s1);
+    obj2->setFunction(s2);
+    obj2->setSpeed(1);
+    obj1->setSpeed(1);
+    obj->setSpeed(10);
+    obj->setSize(50);
+    obj2->setSize(50);
+    scene->addItem(obj);
+    scene->addItem(obj2);
+    scene->addItem(obj1);*/
+    setItemsSpeed(ui->spinBox->value());
 }
 
 void MainWindow::on_run_pause_but_clicked()
@@ -94,10 +103,7 @@ void MainWindow::on_pushButton_clicked()
 {
 
 }
-
-void MainWindow::on_spinBox_valueChanged(int arg)
-{
-    timer_delay=1000/33/*20+2*(100-arg1)*/;
+void MainWindow::setItemsSpeed(int arg){
     QList<QGraphicsItem *> items=scene->items();
     for(int i=0;i<items.size();++i){
         entity *e = dynamic_cast<entity*>(items.at(i));
@@ -106,6 +112,12 @@ void MainWindow::on_spinBox_valueChanged(int arg)
             e->setSpeed((e->getSpeed()<0)?-speed:speed);
         }
     }
+}
+
+void MainWindow::on_spinBox_valueChanged(int arg)
+{
+    timer_delay=1000/33/*20+2*(100-arg1)*/;
+    setItemsSpeed(arg);
     if(timer->isActive()){
         timer->stop();
         timer->start(timer_delay);

@@ -4,6 +4,8 @@
 #include <QGraphicsScene>
 #include <QMainWindow>
 #include<QTimer>
+#include<utility>
+#include<cstdlib>
 namespace Ui {
 class MainWindow;
 }
@@ -16,6 +18,11 @@ class MainWindow : public QMainWindow
     QGraphicsScene *scene;
     bool fullMode;
     int index;
+    void addObjects();
+    Ui::MainWindow *ui;
+    std::pair<double,double> getRandXY();
+    void setItemsSpeed(int);
+
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
@@ -34,9 +41,6 @@ private slots:
     void on_speed_slider_rangeChanged(int min, int max);
 
     void fullScreenArea();
-
-private:
-    Ui::MainWindow *ui;
 
 };
 

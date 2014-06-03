@@ -1,7 +1,7 @@
 #include "functions.h"
 #include <cmath>
 double functions::sin(double x){
-    return sin(x);
+    return 100*sin(x);
 }
 
 double functions::cos(double x){
@@ -12,8 +12,8 @@ double functions::ln(double x){
     return ln(x);
 }
 
-double functions::pow2(double x){
-    return x*x;
+double functions::parabol(double x){
+    return 0.01*x*x;
 }
 
 double functions::x2(double x){

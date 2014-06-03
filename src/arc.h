@@ -12,7 +12,6 @@ public:
     QColor getColorInner();
     void setColorInner(QColor);
     void paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*);//отрисовка
-    void next();
     void setSizeInner(int);
     int getSizeInner();
 

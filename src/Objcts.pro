@@ -18,14 +18,18 @@ SOURCES += main.cpp\
     circle.cpp \
     entity.cpp \
     arc.cpp \
-    functions.cpp
+    functions.cpp \
+    square.cpp \
+    circleinsquare.cpp
 
 HEADERS  += mainwindow.h \
     drawarea.h \
     entity.h \
     circle.h \
     arc.h \
-    functions.h
+    functions.h \
+    square.h \
+    circleinsquare.h
 
 FORMS    += mainwindow.ui
 

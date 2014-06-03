@@ -15,21 +15,21 @@ protected:
         entity(double X, double Y, int Size);
         entity(double X, double Y, int Size, QColor Color);
 public:
-    virtual double getX()=0;
-    virtual double getY()=0;
-    virtual int getSize()=0;
-    virtual fun_t getFunction()=0;
-    virtual QColor getColor()=0;
-    virtual double getSpeed()=0;
-    virtual void setX(double)=0;
-    virtual void setY(double)=0;
-    virtual void setSize(int)=0;
-    virtual void setColor(QColor)=0;
-    virtual void setFunction(fun_t)=0;
-    virtual void setSpeed(double)=0;
+    double getX();
+    double getY();
+    int getSize();
+    fun_t getFunction();
+    QColor getColor();
+    double getSpeed();
+    void setX(double);
+    void setY(double);
+    void setSize(int);
+    void setColor(QColor);
+    void setFunction(fun_t);
+    void setSpeed(double);
 
-    virtual void next()=0;
-    virtual ~entity();
+    void next();
+    ~entity();
 
 };
 

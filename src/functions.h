@@ -5,7 +5,7 @@ struct functions{
     static double sin(double);
     static double cos(double);
     static double ln(double);
-    static double pow2(double);
+    static double parabol(double);
     static double x2(double);
     static double x10(double);
     static double plus16(double);

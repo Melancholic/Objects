@@ -4,11 +4,13 @@
 #include <QColorDialog>
 #include"circle.h"
 #include"arc.h"
+#include"square.h"
 #include <QGraphicsView>
 #include<QtGui>
 #include<QDebug>
 #include<QGraphicsRectItem>
 #include"functions.h"
+#include"circleinsquare.h"
 
 MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),  ui(new Ui::MainWindow){
     ui->setupUi(this);
@@ -51,15 +53,29 @@ void MainWindow::addObjects(){
     std::pair<double,double> xy;
 
     xy=getRandXY();
-    circle *Circle = new circle(xy.first,xy.second);
+    circle *Circle = new circle(0,0);
     Circle->setFunction(functions::x);
+    Circle->setSize(75);
     scene->addItem(Circle);
 
-    xy=getRandXY();
-    arc *Arc = new arc(xy.first,xy.second,qrand()%50+5);
-    Arc->setColor(Qt::red);
+   xy=getRandXY();
+    arc *Arc = new arc(0,0,80);
+    Arc->setColor(Qt::blue);
     Arc->setFunction(functions::minus);
+    Arc->setSizeInner(60);
     scene->addItem(Arc);
+
+    square *Square = new square(0,0,50,Qt::green);
+    Square->setFunction(functions::parabol);
+    scene->addItem(Square);
+
+    CircleInSquare *CIS = new CircleInSquare(0,0,110);
+    CIS->setSizeInner(100);
+    CIS->setColor(Qt::red);
+    CIS->setFunction(functions::x2);
+    scene->addItem(CIS);
+
+
   /*  circle *obj=new circle(50,50);
     arc *obj1=new arc();
     obj1->setX(200);obj1->setY(200);

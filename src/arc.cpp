@@ -32,7 +32,9 @@ int arc::getSizeInner(){
     return SizeInner;
 }
 void arc::paint(QPainter*painter, const QStyleOptionGraphicsItem* o, QWidget* w){
-
+         if(ColorInner!=DrawArea::getBgColor()){
+             ColorInner=DrawArea::getBgColor();
+         }
          painter->save();
          painter->setBrush(QBrush(color));
          circle::paint(painter,o,w);

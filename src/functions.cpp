@@ -1,15 +1,24 @@
 #include "functions.h"
 #include <cmath>
-double functions::sin(double x){
+#include<QDebug>
+#define PI 3.14159265
+
+/*double functions::sin(double x){
     return 100*sin(x);
-}
+}*/
 
 double functions::cos(double x){
-    return cos(x);
+
+    return 200*sin(x/150);
 }
 
-double functions::ln(double x){
-    return ln(x);
+double functions::arc(double x){
+    static bool minus =false;
+    double res= 250*sin(acos(x/250));
+    if(res!=res){
+       minus=!minus;
+    }
+    return (minus)?-res:res;
 }
 
 double functions::parabol(double x){
@@ -24,8 +33,8 @@ double functions::x10(double x){
     return 10*x;
 }
 
-double functions::plus16(double x){
-    return x+16;
+double functions::xx(double x){
+    return 0.0001*x*x*x;
 }
 
 double functions::minus(double x){

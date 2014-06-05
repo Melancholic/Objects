@@ -11,7 +11,10 @@
 #include<QGraphicsRectItem>
 #include"functions.h"
 #include"circleinsquare.h"
-
+#include"triangle.h"
+#include <functional>
+#include"trinagleincircle.h"
+#include"trinagleinarc.h"
 MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),  ui(new Ui::MainWindow){
     ui->setupUi(this);
     timer = new QTimer(this);
@@ -54,7 +57,7 @@ void MainWindow::addObjects(){
 
     xy=getRandXY();
     circle *Circle = new circle(0,0);
-    Circle->setFunction(functions::x);
+    Circle->setFunction(functions::xx);
     Circle->setSize(75);
     scene->addItem(Circle);
 
@@ -70,32 +73,29 @@ void MainWindow::addObjects(){
     scene->addItem(Square);
 
     CircleInSquare *CIS = new CircleInSquare(0,0,110);
-    CIS->setSizeInner(100);
+    CIS->setSizeInner(80);
     CIS->setColor(Qt::red);
-    CIS->setFunction(functions::x2);
+    CIS->setFunction(functions::x);
     scene->addItem(CIS);
 
+    triangle *Triangle = new triangle(0,0,60,Qt::gray);
+    Triangle->setFunction(functions::arc);
+    scene->addItem(Triangle);
 
-  /*  circle *obj=new circle(50,50);
-    arc *obj1=new arc();
-    obj1->setX(200);obj1->setY(200);
-    obj1->setSize(11);
-    circle *obj2=new circle(100,155);
-    obj->setColor(Qt::white);
-    obj1->setColor(Qt::green);
-    obj2->setColor(Qt::red);
-    obj1->setSize(50);
-    obj->setFunction(s);
-    obj1->setFunction(s1);
-    obj2->setFunction(s2);
-    obj2->setSpeed(1);
-    obj1->setSpeed(1);
-    obj->setSpeed(10);
-    obj->setSize(50);
-    obj2->setSize(50);
-    scene->addItem(obj);
-    scene->addItem(obj2);
-    scene->addItem(obj1);*/
+
+    TrinagleInCircle *TIC = new TrinagleInCircle(0,0,110);
+    TIC->setSizeInner(80);
+    TIC->setColor(Qt::yellow);
+    TIC->setFunction(functions::cos);
+    scene->addItem(TIC);
+
+   /* TrinagleInArc *TIA = new TrinagleInArc(0,0,90);
+    TIA->setSizeInner(50);
+    TIA->setColor(Qt::gray);
+    TIA->setFunction(functions::x2);
+    scene->addItem(TIA);*/
+
+
     setItemsSpeed(ui->spinBox->value());
 }
 

@@ -30,7 +30,9 @@ int CircleInSquare::getSizeInner(){
     return SizeInner;
 }
 void CircleInSquare::paint(QPainter*painter, const QStyleOptionGraphicsItem* o, QWidget* w){
-
+    if(ColorInner!=DrawArea::getBgColor()){
+        ColorInner=DrawArea::getBgColor();
+    }
          painter->save();
          painter->setBrush(QBrush(color));
          square::paint(painter,o,w);

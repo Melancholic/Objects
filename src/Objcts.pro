@@ -20,7 +20,10 @@ SOURCES += main.cpp\
     arc.cpp \
     functions.cpp \
     square.cpp \
-    circleinsquare.cpp
+    circleinsquare.cpp \
+    triangle.cpp \
+    trinagleincircle.cpp \
+    trinagleinarc.cpp
 
 HEADERS  += mainwindow.h \
     drawarea.h \
@@ -29,8 +32,12 @@ HEADERS  += mainwindow.h \
     arc.h \
     functions.h \
     square.h \
-    circleinsquare.h
+    circleinsquare.h \
+    triangle.h \
+    trinagleincircle.h \
+    trinagleinarc.h
 
 FORMS    += mainwindow.ui
+QMAKE_CXXFLAGS += -std=c++11
 
-#DEFINES += QT_NO_DEBUG_OUTPUT
+DEFINES += QT_NO_DEBUG_OUTPUT
